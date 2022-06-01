@@ -1,10 +1,5 @@
 # Shiny App for visualization
 
-# Loading the required colors and packages from the R subdirectory ####
-
-# Estimation results saved in the next
-source("R/basics_estimation.R")
-
 function(input, output) {
   output$dens_ingrds <- renderPlot({
     if (input$orth) {
