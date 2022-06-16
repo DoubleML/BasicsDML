@@ -7,8 +7,17 @@ The app illustrates the importance of the three key ingredients of the Double Ma
 ## Run the App Locally
 
 1. Open R/RStudio,
-2. Install shiny in case you don't have it via `install.packages("shiny")`,
-3. Type `shiny::runGitHub("BasicsDML", "DoubleML")`
+2. Install shiny in case you don't have it via
+
+```R
+install.packages("shiny")
+```
+
+3. Type 
+
+```R
+shiny::runGitHub("BasicsDML", "DoubleML")
+```
 
 ## Feedback 
 
