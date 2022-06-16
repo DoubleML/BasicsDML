@@ -21,7 +21,7 @@ shiny::runGitHub("BasicsDML", "DoubleML")
 
 ## Feedback 
 
-Please let us know about bugs or potential improvements via email to `philipp.bach<at>uni-hamburg.de`.
+Please let us know about bugs or potential improvements by contacting [@PhilippBach](https://github.com/PhilippBach).
 
 
 ## References
