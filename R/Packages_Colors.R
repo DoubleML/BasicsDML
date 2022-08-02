@@ -1,20 +1,17 @@
 # Loading the required packages ####
-packages <- c(
-  "shiny", "ggplot2", "EnvStats", "shinyWidgets", "shinydashboard",
-  "latex2exp", "dplyr", "plotly", "MASS", "mvtnorm",
-  "data.table", "RColorBrewer"
-)
-# installing new packages
-if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
-  install.packages(setdiff(packages, rownames(installed.packages())))
-}
-# load and attach packages
-if (length(setdiff(packages, names(sessionInfo()$otherPkgs))) > 0) {
-  lapply(setdiff(packages, names(sessionInfo()$otherPkgs)),
-    require,
-    character.only = TRUE
-  )
-}
+library("shiny")
+library("ggplot2")
+library("EnvStats")
+library("shinyWidgets")
+library("shinydashboard")
+library("latex2exp")
+library("dplyr")
+library("plotly")
+library("MASS")
+library("mvtnorm")
+library("data.table")
+library("RColorBrewer")
+
 
 # defining certain colors and methods ####
 dashboard_skin <- "black"
